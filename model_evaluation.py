@@ -23,8 +23,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import label_binarize
 
-os.environ ['KAGGLE_USERNAME'] = "anthikagunaselan"
-os.environ ['KAGGLE_KEY'] = "1ece601edc1203954503a25ec7ffe253"
+os.environ ['KAGGLE_USERNAME'] = ""
+os.environ ['KAGGLE_KEY'] = ""
 !kaggle datasets download -d puneet6060/intel-image-classification
 !unzip intel-image-classification.zip -d data/
 !unzip data/seg_train.zip -d data/
